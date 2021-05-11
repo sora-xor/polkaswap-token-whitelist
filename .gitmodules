@@ -1,0 +1,12 @@
+[submodule "polkaswap-token-whitelist-config"]
+	path = polkaswap-token-whitelist-config
+	url = https://github.com/sora-xor/polkaswap-token-whitelist-config
+[submodule "polkaswap-token-whitelist-js"]
+	path = polkaswap-token-whitelist-js
+	url = https://github.com/sora-xor/polkaswap-token-whitelist-js
+[submodule "polkaswap-token-whitelist-android"]
+	path = polkaswap-token-whitelist-android
+	url = https://github.com/sora-xor/polkaswap-token-whitelist-android
+[submodule "polkaswap-token-whitelist-ios"]
+	path = polkaswap-token-whitelist-ios
+	url = https://github.com/sora-xor/polkaswap-token-whitelist-ios
