@@ -6,8 +6,7 @@ def pipeline = new org.js.LibPipeline(
     buildDir: './polkaswap-token-whitelist-js',
     buildDockerImage: 'build-tools/node:14-ubuntu',
     buildCmds: ['yarn', 'NODE_ENV=production yarn build'],
-    npmRegistries: ['': 'npm-soramitsu-admin'],
-    npmLoginEmail: 'admin@soramitsu.co.jp',
+    npmRegistries: [:],
     sonarProjectName: 'polkaswap-token-whitelist',
     sonarProjectKey: 'jp.co.soramitsu:polkaswap-token-whitelist',
     gitUpdateSubmodule: true)
